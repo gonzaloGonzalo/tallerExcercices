@@ -10,7 +10,7 @@ import Excercise1.model.Status;
  */
 public class Client {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Service service = new Service();
         System.out.println("SERVICE LIST WITH STATUS "+Status.CONNECTED
