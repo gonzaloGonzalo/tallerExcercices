@@ -8,7 +8,7 @@ import org.junit.Test;
 public class ServiceTest {
 
     @Test
-    public void test{(){
-
+    public void test(){
+        
     }
 }
