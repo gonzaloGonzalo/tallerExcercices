@@ -9,7 +9,7 @@ import java.util.Map;
 public class CountChar {
 
     public static void main(String[] args){
-        String s = "mmmmmeeeii";
+        /*String s = "mmmmmeeeii";
         Map<Character, Integer> freqs = new HashMap<>();
         for (char c : s.toCharArray()) {
             freqs.merge(c,                  // key = char
@@ -17,10 +17,11 @@ public class CountChar {
                     Integer::sum);      // counting
         }
         System.out.println("Frequencies:\n" + freqs);
+        */
 
         String str = "mmmmmeeeii";
         int len = str.length();
-        Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
+        Map<Character, Integer> numChars = new HashMap<>();
 
         for (int i = 0; i < len; ++i)
         {
